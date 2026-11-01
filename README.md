@@ -89,8 +89,8 @@ Pembagian IP per kelompok:
 
 | File | Dijalankan di | Fungsi |
 |---|---|---|
-| `run-lab.bat` | Windows | Launcher: minta hak Administrator lalu menjalankan `setup-lab.ps1` |
-| `setup-lab.ps1` | Windows | Mengatur jaringan host-only dan NAT di VMware / VirtualBox, lalu mengirim `setup-proxmox.sh` ke Proxmox |
+| `run-lab.bat` | Windows | Launcher: minta hak Administrator lalu menjalankan `config-proxmox.ps1` |
+| `config-proxmox.ps1` | Windows | Mengatur jaringan host-only dan NAT di VMware / VirtualBox, lalu mengirim `setup-proxmox.sh` ke Proxmox |
 | `setup-proxmox.sh` | Proxmox (Linux) | Mengatur `vmbr0`, `vmbr1`, `/etc/hosts`, dan DNS sesuai nomor kelompok |
 
 > Ketiga file harus berada di **satu folder yang sama**.
